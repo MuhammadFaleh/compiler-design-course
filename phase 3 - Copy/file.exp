@@ -1,0 +1,8 @@
+
+repeat
+if (1) then
+x = x-1 mod 10;
+while(1) do
+y = 1;
+until(1)
+

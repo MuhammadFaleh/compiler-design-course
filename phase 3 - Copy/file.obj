@@ -1,0 +1,31 @@
+repeat:
+push 1 
+pop r2
+cmp r2,0
+be else
+push x
+push 1 
+push 10 
+pop r2
+cmp r2 , 0 
+MOD r2 ,r1
+push r2
+pop r1
+pop r2
+SUB r2 ,r1
+push r2
+pop x
+else:
+while
+push 1 
+pop r2
+cmp r2,0
+be endwhile
+push 1 
+pop y
+b while
+endwhile
+push 1 
+pop r2
+comp r2,0
+be repeat
